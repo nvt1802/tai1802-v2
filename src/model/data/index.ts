@@ -4,6 +4,7 @@ export const data = [
     songNameVN: "Chứng Đa Nghi",
     singNameCN: "任然",
     singNameVN: "Nhậm Nhiên",
+    image: "https://i.imgur.com/3yJXVE3.jpg",
     url: "https://www.youtube.com/watch?v=YkLyTXJYwgI",
   },
   {
@@ -11,6 +12,8 @@ export const data = [
     songNameVN: "Nuông Chiều Đến Hư Hỏng",
     singNameCN: "李俊佑、小潘潘",
     singNameVN: "Lý Tuấn Hữu & Tiểu Phan Phan",
+    image:
+      "https://p1.music.126.net/hgcFNrK6cFzlnonHPMslqA==/109951164913376597.jpg",
     url: "https://www.youtube.com/watch?v=mRt5klZTWe4",
   },
   {
@@ -18,6 +21,8 @@ export const data = [
     songNameVN: "Cưng Chiều Che Chở",
     singNameCN: "王理文",
     singNameVN: "Vương Lý Văn",
+    image:
+      "https://p2.music.126.net/yUnbixAwkTOYA-4BrhKNKg==/109951163705721007.jpg",
     url: "https://www.youtube.com/watch?v=c0182SQglio",
   },
   {
@@ -25,6 +30,8 @@ export const data = [
     songNameVN: "Quả Chanh Màu Xanh",
     singNameCN: "徐秉龍、桃十五",
     singNameVN: "Lý Văn Hương ft Sơn Trúc Muội Hiệp",
+    image:
+      "https://www.echinesesong.com/wp-content/uploads/2019/01/Qing-Ning-%E9%9D%92%E6%9F%A0-Lime-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-Xu-Bing-Long-%E5%BE%90%E7%A7%89%E9%BE%99-Tao-Shi-Wu-%E6%A1%83%E5%8D%81%E4%BA%94.jpg",
     url: "https://www.youtube.com/watch?v=dR_tDgl511Q",
   },
   {
@@ -32,6 +39,7 @@ export const data = [
     songNameVN: "Lạc Lối Trong Ánh Mắt Anh",
     singNameCN: "恩寵",
     singNameVN: "Ẩn Sủng",
+    image: "https://s.zimedia.com.tw/s/WsAt1Z-0",
     url: "https://www.youtube.com/watch?v=bc1lKJgeWn0",
   },
   {
@@ -39,6 +47,7 @@ export const data = [
     songNameVN: "Tiểu Ca Ca",
     singNameCN: "胡艾彤",
     singNameVN: "Hồ Ngải Đồng",
+    image: "https://i.scdn.co/image/ab67616d0000b273424bad55b3ad852056e922c6",
     url: "https://www.youtube.com/watch?v=71_xMjqOLJU",
   },
   {
@@ -46,6 +55,7 @@ export const data = [
     songNameVN: "Công Chúa Nhỏ",
     singNameCN: "蔣蔣-楊清檸",
     singNameVN: "Tưởng Tưởng ft. Dương Thanh Ninh",
+    image: "https://i.scdn.co/image/ab67616d0000b273e819be687e3a4ce37b5e1618",
     url: "https://www.youtube.com/watch?v=ugnLSVKP7ZI",
   },
   {
@@ -53,6 +63,7 @@ export const data = [
     songNameVN: "Đông Miên",
     singNameCN: "司南",
     singNameVN: "Tư Nam",
+    name: "https://aliyunimg.9ku.com/pic/gstx/2019/09/1670674.jpg?x-oss-process=image/resize,m_fill,w_300,h_300,limit_0/auto-orient,0",
     url: "https://www.youtube.com/watch?v=cxBZzf8lzqo",
   },
   {
@@ -60,6 +71,7 @@ export const data = [
     songNameVN: "Trêu Một Tí",
     singNameCN: "楊舒然",
     singNameVN: "Dương Thư Nhiên",
+    image: "https://i.kfs.io/artist/global/12597535,0v1/fit/300x300.jpg",
     url: "https://www.youtube.com/watch?v=-K4dc7861Rs",
   },
   {
@@ -67,6 +79,7 @@ export const data = [
     songNameVN: "Nhóc Mập",
     singNameCN: "葛雨晴",
     singNameVN: "Cát Vũ Tinh",
+    image: "https://i.ytimg.com/vi/od-ghGVgEF0/maxresdefault.jpg",
     url: "https://www.youtube.com/watch?v=xSq_cDMbMBg",
   },
   {
@@ -74,6 +87,8 @@ export const data = [
     songNameVN: "Nhớ Anh, Yêu Em",
     singNameCN: "阿涵、潘柯夫",
     singNameVN: "A Hàm ft Phan Kha Phu",
+    image:
+      "https://www.echinesesong.com/wp-content/uploads/2019/05/Shi-Mian-%E5%A4%B1%E7%9C%A0-Insomnia-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-A-Han-%E9%98%BF%E6%B6%B5.jpg",
     url: "https://www.youtube.com/watch?v=bEuiQmewqGU",
   },
   {
@@ -81,6 +96,7 @@ export const data = [
     songNameVN: "Ngọt Ngào",
     singNameCN: "曉華、林小坤",
     singNameVN: "Hiểu Hoa + Lâm Tiểu Khôn",
+    image: "https://i.scdn.co/image/ab67616d0000b2733a1952ec2eff51b09841b24d",
     url: "https://www.youtube.com/watch?v=fr-1hMyj6K8",
   },
   {
@@ -88,6 +104,7 @@ export const data = [
     songNameVN: "Mau Nói Yêu Em",
     singNameCN: "賀子玲",
     singNameVN: "Hạ Tử Linh",
+    image: "https://i.kfs.io/article5/global/21,5802,1v1/original.jpg",
     url: "https://www.youtube.com/watch?v=5fly5UZ8IWM",
   },
   {
@@ -95,6 +112,8 @@ export const data = [
     songNameVN: "Phép màu tình yêu",
     singNameCN: "金莎",
     singNameVN: "Kim Sa",
+    image:
+      "https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2020/10/23/8812836.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&q=75",
     url: "https://www.youtube.com/watch?v=8EIeK68l0VU",
   },
   {
@@ -102,6 +121,7 @@ export const data = [
     songNameVN: "Bỏ Lỡ",
     singNameCN: null,
     singNameVN: "Jason",
+    image: "https://i.ytimg.com/vi/Oht-NVFBlvI/maxresdefault.jpg",
     url: "https://www.youtube.com/watch?v=uFbEbMNycMc",
   },
   {
@@ -109,6 +129,8 @@ export const data = [
     songNameVN: "Thói Quen",
     singNameCN: "夏婉安",
     singNameVN: "Hạ Uyển An",
+    image:
+      "https://lh3.googleusercontent.com/proxy/t_RKWcJucggdxV2EIKm_ey1PZ1uziaEUZZP50hsdBVts6dMbxexoFbjLrac9YmMnE1rzfkN9yA64p9YITFw7sA2UQibLrFH09pg",
     url: "https://www.youtube.com/watch?v=P2DRc-94INo",
   },
   {
@@ -116,6 +138,8 @@ export const data = [
     songNameVN: "Khoảnh Khắc Mưa Rơi",
     singNameCN: "李夢尹",
     singNameVN: "Lý Mộng Doãn",
+    image:
+      "https://p1.music.126.net/A6GY2mWOAbp6n1Rc_nh7CQ==/109951165711548970.jpg?param=640y520",
     url: "https://www.youtube.com/watch?v=HWrDNKJ8TwU",
   },
   {
@@ -123,6 +147,7 @@ export const data = [
     songNameVN: "Người Qua Đường",
     singNameCN: "阿涵",
     singNameVN: "A Hàm",
+    image: "https://i0.wp.com/img.jk51.com/img_jk51/173454031.jpeg",
     url: "https://www.youtube.com/watch?v=DsUmmudjkfQ",
   },
   {
@@ -130,6 +155,8 @@ export const data = [
     songNameVN: "Điều Đáng Tiếc",
     singNameCN: "莊心妍",
     singNameVN: "Trang Tâm Nghiên",
+    image:
+      "https://direct.rhapsody.com/imageserver/images/alb.345374469/500x500.jpg",
     url: "https://www.youtube.com/watch?v=vzTxRUCtdXE",
   },
   {
@@ -137,6 +164,8 @@ export const data = [
     songNameVN: "Tự Cho Mình Lối Thoát",
     singNameCN: "莊心妍",
     singNameVN: "Trang Tâm Nghiên",
+    image:
+      "https://direct.rhapsody.com/imageserver/images/alb.345374469/500x500.jpg",
     url: "https://www.youtube.com/watch?v=ifjdm5rHeW0",
   },
   {
@@ -144,6 +173,7 @@ export const data = [
     songNameVN: "Rất Muốn Yêu Anh",
     singNameCN: "季彥霖",
     singNameVN: "Quý Ngạn Lâm",
+    image: "https://i.kfs.io/album/global/54255472,0v1/fit/500x500.jpg",
     url: "https://www.youtube.com/watch?v=-0bspXmDI7E",
   },
   {
@@ -151,6 +181,7 @@ export const data = [
     songNameVN: "Sau Đó Thì Sao",
     singNameCN: "任然",
     singNameVN: "Nhậm Nhiên",
+    image: "https://i.imgur.com/3yJXVE3.jpg",
     url: "https://www.youtube.com/watch?v=ccpYTmNDWZ4",
   },
   {
@@ -158,6 +189,7 @@ export const data = [
     songNameVN: "Không Thoát Khỏi Những Hồi Ức",
     singNameCN: "任然",
     singNameVN: "Nhậm Nhiên",
+    image: "https://i.imgur.com/3yJXVE3.jpg",
     url: "https://www.youtube.com/watch?v=mXYtJidVaPQ",
   },
   {
@@ -165,6 +197,8 @@ export const data = [
     songNameVN: "Có Thể Hay Không",
     singNameCN: "張紫豪",
     singNameVN: "Trương Tử Hào",
+    image:
+      "https://cdns-images.dzcdn.net/images/artist/d4473e23d7e5664afdd49d461c7f70b9/264x264.jpg",
     url: "https://www.youtube.com/watch?v=hgIDXTmmgDg",
   },
   {
@@ -172,6 +206,8 @@ export const data = [
     songNameVN: "Bệnh Biến",
     singNameCN: "鞠文嫻",
     singNameVN: null,
+    image:
+      "http://n.sinaimg.cn/sinacn10120/390/w996h994/20191126/f913-iixntzz3858293.jpg",
     url: "https://www.youtube.com/watch?v=ZFw6rTEw1hA",
   },
   {
@@ -179,6 +215,8 @@ export const data = [
     songNameVN: "Tỏ Tình",
     singNameCN: "孫莞",
     singNameVN: "Tôn Hoàn",
+    image:
+      "https://lh3.googleusercontent.com/proxy/QB2WF6CoPWphZJ62nuuUmxLAC_evDOVJWq0PzCAYU-jkwsx4D0In1pfOYm_JdtgjRRcNLA1HpxJ6xQJ4m0VxT8hGFwNehUV2fDDSKA7DY7vQIFbOAw",
     url: "https://www.youtube.com/watch?v=FxMGg6TCvi0",
   },
   {
@@ -186,6 +224,7 @@ export const data = [
     songNameVN: "Yêu Nhiều Thêm Một Chút",
     singNameCN: "兔子牙",
     singNameVN: "Thố Tử Nha",
+    image: "https://pic.ruoyo.com/file/20190915/tdwrrmakux5.jpg",
     url: "https://www.youtube.com/watch?v=2jX6JSIA-0o",
   },
   {
@@ -193,6 +232,7 @@ export const data = [
     songNameVN: "Yên Lòng",
     singNameCN: "王天戈",
     singNameVN: "Vương Thiên Qua",
+    image: "https://i1.sndcdn.com/artworks-000459122598-av35xq-t500x500.jpg",
     url: "https://www.youtube.com/watch?v=WY4wYvRi1OE",
   },
   {
@@ -200,6 +240,8 @@ export const data = [
     songNameVN: "687 Giỏi Lắm Đấy",
     singNameCN: "任舒瞳",
     singNameVN: "Nhậm Thư Đồng",
+    image:
+      "https://www.bingguner.com/uploadfile/2018/1010/20181010042232788.jpg",
     url: "https://www.youtube.com/watch?v=tqIRDsTIqZA",
   },
   {
@@ -207,6 +249,7 @@ export const data = [
     songNameVN: "Ngàn Năm",
     singNameCN: "金志文 + 吉克隽逸",
     singNameVN: "Kim Chí Văn, Cát Khắc Tuyển Dật",
+    image: "https://i.ytimg.com/vi/mBKXARJlhbc/maxresdefault.jpg",
     url: "https://www.youtube.com/watch?v=VASarC7m3Fc",
   },
   {
@@ -214,6 +257,7 @@ export const data = [
     songNameVN: "Phù Dung Chớm Nở, Mưa Đúng Lúc",
     singNameCN: null,
     singNameVN: "Trịnh Vân Long & Châu Thâm",
+    image: "https://i.ytimg.com/vi/rYmZYpkTW8E/maxresdefault.jpg",
     url: "https://www.youtube.com/watch?v=D4xa4FtiovE",
   },
   {
@@ -221,6 +265,8 @@ export const data = [
     songNameVN: "Có gì không thể",
     singNameCN: "封茗囧菌",
     singNameVN: null,
+    image:
+      "https://img.youxigt.com/file/2018-09-12/1c75cd11f5e464814d237b7d50e3c137.jpg",
     url: "https://www.youtube.com/watch?v=50MizO_I3mI",
   },
   {
@@ -228,6 +274,7 @@ export const data = [
     songNameVN: "Xin Hãy Nói Xin Chào",
     singNameCN: "賀一航",
     singNameVN: "Hạ Nhất Hàng",
+    image: "https://i.ytimg.com/vi/QQLPxKOx0QM/maxresdefault.jpg",
     url: "https://www.youtube.com/watch?v=ssdFRk-wY0A",
   },
   {
@@ -235,6 +282,8 @@ export const data = [
     songNameVN: "Gặp Lại Cũng Chỉ Là Người Xa Lạ",
     singNameCN: "莊心妍",
     singNameVN: "Trang Tâm Nghiên",
+    image:
+      "https://direct.rhapsody.com/imageserver/images/alb.345374469/500x500.jpg",
     url: "https://www.youtube.com/watch?v=j37tBsPy6WI",
   },
   {
@@ -242,6 +291,7 @@ export const data = [
     songNameVN: "Tây Lâu Biệt Tự",
     singNameCN: "尹昔眠/小田音乐社",
     singNameVN: "Doãn Tích Miên/Tiểu Điền Âm Nhạc Xã",
+    image: "https://i.kfs.io/album/global/109834448,0v1/fit/500x500.jpg",
     url: "https://www.youtube.com/watch?v=UCzokzQwE4I",
   },
   {
@@ -249,6 +299,8 @@ export const data = [
     songNameVN: "Kiếp",
     singNameCN: "音频怪物",
     singNameVN: "Âm Tần Quái Vật",
+    image:
+      "https://y.gtimg.cn/music/photo_new/T001R300x300M000001O2cJY0fnmg5.jpg",
     url: "https://www.youtube.com/watch?v=YIPmHenJbu8",
   },
   {
@@ -256,6 +308,8 @@ export const data = [
     songNameVN: "Mộng Độ",
     singNameCN: "鞠婧禕&霍尊",
     singNameVN: "Cúc Tịnh Y, Hoắc Tôn",
+    image:
+      "http://p0.itc.cn/images01/20200812/558d70985ec34e5b8bc93184a91e7872.jpeg",
     url: "https://www.youtube.com/watch?v=fp6wfMc0J5o",
   },
   {
@@ -263,6 +317,8 @@ export const data = [
     songNameVN: "Phù Dung",
     singNameCN: "鞠婧祎",
     singNameVN: "Cúc Tịnh Y",
+    image:
+      "http://p0.itc.cn/images01/20200812/558d70985ec34e5b8bc93184a91e7872.jpeg",
     url: "https://www.youtube.com/watch?v=9ke3efb9U7A",
   },
   {
@@ -270,6 +326,8 @@ export const data = [
     songNameVN: "Cổ Họa",
     singNameCN: "鞠婧祎",
     singNameVN: "Cúc Tịnh Y",
+    image:
+      "http://p0.itc.cn/images01/20200812/558d70985ec34e5b8bc93184a91e7872.jpeg",
     url: "https://www.youtube.com/watch?v=IO1-V1dbtv8",
   },
   {
@@ -277,6 +335,7 @@ export const data = [
     songNameVN: "Khó Sinh Hận",
     singNameCN: "DAWN",
     singNameVN: "DAWN",
+    image: "https://i.kfs.io/album/global/96785128,0v1/fit/500x500.jpg",
     url: "https://www.youtube.com/watch?v=s-LVO-dj3zM",
   },
   {
@@ -284,6 +343,7 @@ export const data = [
     songNameVN: "Ta Tên Trường An, Chàng Tên Cố Lí",
     singNameCN: "尹昔眠/小田音乐社",
     singNameVN: "Doãn Tích Miên/ Tiểu Điền Âm Nhạc Xã",
+    image: "https://i.kfs.io/album/global/109834448,0v1/fit/500x500.jpg",
     url: "https://www.youtube.com/watch?v=Gc4LUVm7Wvk",
   },
   {
@@ -291,6 +351,7 @@ export const data = [
     songNameVN: "Những Điều Về Em Tôi Vẫn Chưa Nghĩ Xong",
     singNameCN: "來一碗老于",
     singNameVN: "Lai Nhất Uyển Lão Vu",
+    image: "https://i.ytimg.com/vi/CByHiskQl4c/sddefault.jpg",
     url: "https://www.youtube.com/watch?v=4-3T2eyUaaw",
   },
   {
@@ -298,6 +359,8 @@ export const data = [
     songNameVN: "Hoa Gian Tửu",
     singNameCN: "澄海伯伯、超级橘子、River",
     singNameVN: "Trừng Hải Bá Bá, Orange, River",
+    image:
+      "https://i1.sndcdn.com/artworks-AKN9P4Vm5Uorfkvo-Kfwbtw-t500x500.jpg",
     url: "https://www.youtube.com/watch?v=Na6tWeWCNqc",
   },
   {
@@ -305,6 +368,7 @@ export const data = [
     songNameVN: "Biết Không? Biết Không?",
     singNameCN: "郁可唯、胡夏",
     singNameVN: "Úc Khả Duy, Hồ Hạ",
+    image: "https://i.kfs.io/artist/global/51937,0v10/fit/300x300.jpg",
     url: "https://www.youtube.com/watch?v=Ndf5Q_f6ZVc",
   },
   {
@@ -312,6 +376,8 @@ export const data = [
     songNameVN: "Vì Người Mà Đến",
     singNameCN: "袁娅维",
     singNameVN: "Viên Á Duy",
+    image:
+      "https://lh3.googleusercontent.com/proxy/xko_tpSBO7YAGzaA-LyWIIOsq4U7nkLD5xMPy9OEKyKi6lU6ZDk4vhvXy4u9OenNCw54x-sCE4zX4Gvk7SUNT2RBg8ZpeNwrTjSuTO0Xe00aY71HWg5M",
     url: "https://www.youtube.com/watch?v=HxxYscsAy94",
   },
   {
@@ -319,6 +385,8 @@ export const data = [
     songNameVN: "Dư Quân Thư",
     singNameCN: "啊YueYue",
     singNameVN: "A Nguyệt Nguyệt",
+    image:
+      "https://y.gtimg.cn/music/photo_new/T001R300x300M0000009dWas0XxekN.jpg?max_age=2592000",
     url: "https://www.youtube.com/watch?v=Tp8EPN1VkJY",
   },
   {
@@ -326,6 +394,8 @@ export const data = [
     songNameVN: "Xuy Mộng Đáo Tây Châu",
     singNameCN: "妖扬 & 黄诗扶",
     singNameVN: "Yêu Dương & Hoàng Thi Phù",
+    image:
+      "https://i.shangc.net/questions/20191114/0fe146472e670a19aabe6a8db61467ce.jpg",
     url: "https://www.youtube.com/watch?v=SD2X3Z3qlxY",
   },
   {
@@ -333,6 +403,7 @@ export const data = [
     songNameVN: "Xuy Diệt Tiểu Sơn Hà",
     singNameCN: "司南",
     singNameVN: "Tư Nam",
+    name: "https://aliyunimg.9ku.com/pic/gstx/2019/09/1670674.jpg?x-oss-process=image/resize,m_fill,w_300,h_300,limit_0/auto-orient,0",
     url: "https://www.youtube.com/watch?v=e_PILvSP8gI",
   },
   {
@@ -340,6 +411,7 @@ export const data = [
     songNameVN: "Nhàn Đình Nhứ",
     singNameCN: "刘珂矣",
     singNameVN: "Lưu Kha Hĩ",
+    image: "https://i.ytimg.com/vi/tGpQtxygfm0/maxresdefault.jpg",
     url: "https://www.youtube.com/watch?v=KnHw5DSCR2Q",
   },
   {
@@ -347,6 +419,7 @@ export const data = [
     songNameVN: "Cách Ngạn",
     singNameCN: "姚六一",
     singNameVN: "Diêu Lục Nhất",
+    image: "https://p1.music.126.net/DvUsgfZiPLoWztVd44qA9w==/109951165067845133.jpg?param=640y520",
     url: "https://www.youtube.com/watch?v=E58BJLyyxqA",
   },
   {
@@ -403,6 +476,7 @@ export const data = [
     songNameVN: "Phi Điểu Và Ve Sầu",
     singNameCN: "任然",
     singNameVN: "Nhậm Nhiên",
+    image: "https://i.imgur.com/3yJXVE3.jpg",
     url: "https://www.youtube.com/watch?v=V0XUd8f2pz8",
   },
   {
@@ -431,6 +505,7 @@ export const data = [
     songNameVN: "Trống Rỗng",
     singNameCN: "任然",
     singNameVN: "Nhậm Nhiên",
+    image: "https://i.imgur.com/3yJXVE3.jpg",
     url: "https://www.youtube.com/watch?v=b_goBPeiD7w",
   },
   {
@@ -473,6 +548,7 @@ export const data = [
     songNameVN: "Đảo Không Người",
     singNameCN: "任然",
     singNameVN: "Nhậm Nhiên",
+    image: "https://i.imgur.com/3yJXVE3.jpg",
     url: "https://www.youtube.com/watch?v=0RsL8Ga73QQ",
   },
   {
@@ -480,6 +556,7 @@ export const data = [
     songNameVN: "Ngườ Kế Nhiệm",
     singNameCN: "任然",
     singNameVN: "Nhậm Nhiên",
+    image: "https://i.imgur.com/3yJXVE3.jpg",
     url: "https://www.youtube.com/watch?v=-gS9G3qKdL8",
   },
   {
@@ -522,6 +599,7 @@ export const data = [
     songNameVN: "Lựa Chọn Mất Đi Kí Ức",
     singNameCN: "季彥霖",
     singNameVN: "Quý Ngạn Lâm",
+    image: "https://i.kfs.io/album/global/54255472,0v1/fit/500x500.jpg",
     url: "https://www.youtube.com/watch?v=wc1ulLfSDfM",
   },
   {
@@ -529,6 +607,7 @@ export const data = [
     songNameVN: "Có Lẽ Anh Đã Quên Rồi",
     singNameCN: "季彥霖",
     singNameVN: "Quý Ngạn Lâm",
+    image: "https://i.kfs.io/album/global/54255472,0v1/fit/500x500.jpg",
     url: "https://www.youtube.com/watch?v=81o7T06XQBE",
   },
   {
@@ -536,6 +615,8 @@ export const data = [
     songNameVN: "Càng Đi Càng Lạc Lối",
     singNameCN: "莊心妍",
     singNameVN: "Trang Tâm Nghiên",
+    image:
+      "https://direct.rhapsody.com/imageserver/images/alb.345374469/500x500.jpg",
     url: "https://www.youtube.com/watch?v=mgkkobzQSlU",
   },
   {
@@ -690,6 +771,8 @@ export const data = [
     songNameVN: "Tình Yêu Vội Vàng",
     singNameCN: "鞠婧祎",
     singNameVN: "Cúc Tịnh Y",
+    image:
+      "http://p0.itc.cn/images01/20200812/558d70985ec34e5b8bc93184a91e7872.jpeg",
     url: "https://www.youtube.com/watch?v=qNhzEtVBE4c",
   },
   {
@@ -767,6 +850,8 @@ export const data = [
     songNameVN: "Thì Quá Khứ Hoàn Thành",
     singNameCN: "鞠婧祎",
     singNameVN: "Cúc Tịnh Y",
+    image:
+      "http://p0.itc.cn/images01/20200812/558d70985ec34e5b8bc93184a91e7872.jpeg",
     url: "https://www.youtube.com/watch?v=GzmxD3P1o9Y",
   },
   {
@@ -858,6 +943,7 @@ export const data = [
     songNameVN: "Đi vòng quanh",
     singNameCN: "兔子牙",
     singNameVN: "Thố Tử Nha",
+    image: "https://pic.ruoyo.com/file/20190915/tdwrrmakux5.jpg",
     url: "https://www.youtube.com/watch?v=HL6PFoPyonM",
   },
   {
@@ -872,6 +958,7 @@ export const data = [
     songNameVN: "Moonlight Forest",
     singNameCN: "兔子牙",
     singNameVN: "Thố Tử Nha",
+    image: "https://pic.ruoyo.com/file/20190915/tdwrrmakux5.jpg",
     url: "https://www.youtube.com/watch?v=HwMtBYQmjww",
   },
   {
@@ -914,6 +1001,8 @@ export const data = [
     songNameVN: "Một Mình",
     singNameCN: "夏婉安",
     singNameVN: "Hạ Uyển An",
+    image:
+      "https://lh3.googleusercontent.com/proxy/t_RKWcJucggdxV2EIKm_ey1PZ1uziaEUZZP50hsdBVts6dMbxexoFbjLrac9YmMnE1rzfkN9yA64p9YITFw7sA2UQibLrFH09pg",
     url: "https://www.youtube.com/watch?v=MoRRdWKK140",
   },
   {
