@@ -1,17 +1,22 @@
-import { Checkbox, TableBody, TableCell, TableRow } from '@material-ui/core'
-import React from 'react'
+import { Checkbox, TableBody, TableCell, TableRow } from "@material-ui/core"
+import React, { FC } from "react"
 
-const TableCustomBody = ({
+interface TableCustomBodyProps {
+  dataTable: any
+  isSelected: any
+  handleClick: any
+}
+
+const TableCustomBody: FC<TableCustomBodyProps> = ({
   dataTable,
   isSelected,
-  handleClick
+  handleClick,
 }) => {
-
   return (
     <TableBody>
       {Object.keys(dataTable).map((row, index) => {
-        const isItemSelected = isSelected(row);
-        const labelId = `enhanced-table-checkbox-${index}`;
+        const isItemSelected = isSelected(row)
+        const labelId = `enhanced-table-checkbox-${index}`
         return (
           <TableRow
             hover
@@ -25,7 +30,7 @@ const TableCustomBody = ({
             <TableCell padding="checkbox">
               <Checkbox
                 checked={isItemSelected}
-                inputProps={{ 'aria-labelledby': labelId }}
+                inputProps={{ "aria-labelledby": labelId }}
               />
             </TableCell>
             <TableCell align="left">{row}</TableCell>

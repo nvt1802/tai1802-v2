@@ -37,17 +37,17 @@ export default function CustomTable({ data = [] }) {
   const classes = useStyles()
   const [order, setOrder] = React.useState("asc")
   const [orderBy, setOrderBy] = React.useState("calories")
-  const [selected, setSelected] = React.useState([])
+  const [selected, setSelected] = React.useState<any>([])
   const [page, setPage] = React.useState(0)
   const [rowsPerPage, setRowsPerPage] = React.useState(5)
 
-  const handleRequestSort = (event, property) => {
+  const handleRequestSort = (event: any, property: any) => {
     const isAsc = orderBy === property && order === "asc"
     setOrder(isAsc ? "desc" : "asc")
     setOrderBy(property)
   }
 
-  const handleSelectAllClick = (event) => {
+  const handleSelectAllClick = (event: any) => {
     if (event.target.checked) {
       const newSelecteds = Object.keys(data).map((n) => n)
       setSelected(newSelecteds)
@@ -56,9 +56,9 @@ export default function CustomTable({ data = [] }) {
     setSelected([])
   }
 
-  const handleClick = (event, name) => {
+  const handleClick = (event: any, name: any) => {
     const selectedIndex = selected.indexOf(name)
-    let newSelected = []
+    let newSelected: any[] = []
 
     if (selectedIndex === -1) {
       newSelected = newSelected.concat(selected, name)
@@ -76,7 +76,7 @@ export default function CustomTable({ data = [] }) {
     setSelected(newSelected)
   }
 
-  const isSelected = (name) => selected.indexOf(name) !== -1
+  const isSelected = (name: any) => selected.indexOf(name) !== -1
 
   return (
     <div className={classes.root}>

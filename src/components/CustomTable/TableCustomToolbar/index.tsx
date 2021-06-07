@@ -31,7 +31,7 @@ const useToolbarStyles = makeStyles((theme) => ({
   },
 }))
 
-const TableCustomToolbar = (props) => {
+const TableCustomToolbar = (props: any) => {
   const classes = useToolbarStyles()
   const { numSelected } = props
   const handleDelete = () => {}

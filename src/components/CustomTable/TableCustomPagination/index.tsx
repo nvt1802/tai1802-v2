@@ -1,7 +1,17 @@
 import { TablePagination } from '@material-ui/core'
-import React from 'react'
+import React, { FC } from 'react'
 
-const TableCustomPagination = ({
+interface TableCustomPaginationProps {
+  rowsPerPageOptions: any
+  component: any
+  count: any
+  rowsPerPage: any
+  setRowsPerPage: any
+  page: any
+  setPage: any
+}
+
+const TableCustomPagination: FC<TableCustomPaginationProps> = ({
   rowsPerPageOptions,
   component,
   count,
@@ -11,11 +21,11 @@ const TableCustomPagination = ({
   setPage,
 }) => {
 
-  const handleChangePage = (event, newPage) => {
+  const handleChangePage = (event: any, newPage: any) => {
     setPage(newPage)
   };
 
-  const handleChangeRowsPerPage = (event) => {
+  const handleChangeRowsPerPage = (event: any) => {
     setRowsPerPage(parseInt(event.target.value, 10))
     setPage(0)
   };
