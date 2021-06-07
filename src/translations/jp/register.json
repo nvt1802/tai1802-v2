@@ -1,0 +1,12 @@
+{
+  "title": "登録",
+  "btn_sign_in": "登録",
+  "lbl_forgot_password": "パスワードをお忘れですか ？",
+  "lbl_register": "すでにアカウントをお持ちですか？ サインイン",
+  "validate": {
+    "auth/weak-password": "パスワードは 6 文字以上にする必要があります",
+    "auth/email-already-in-use": "メールアドレスは別のアカウントですでに使用されています"
+  },
+  "lbl_register_success": "アカウントが作成されました！",
+  "lbl_login_now": "今すぐサインイン"
+}

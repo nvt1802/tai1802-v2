@@ -1,0 +1,12 @@
+{
+  "title": "Register",
+  "btn_sign_in": "Register",
+  "lbl_forgot_password": "Forgot password ?",
+  "lbl_register": "Already have an account? Register",
+  "validate": {
+    "auth/weak-password": "Password should be at least 6 characters",
+    "auth/email-already-in-use": "The email address is already in use by another account"
+  },
+  "lbl_register_success": "Account successfully created!",
+  "lbl_login_now": "Register now"
+}

@@ -1,0 +1,26 @@
+{
+  "title_language": "语",
+  "language": {
+    "cn": "中国文字",
+    "en": "English",
+    "jp": "日本語",
+    "kr": "한국어",
+    "vn": "Tiếng Việt"
+  },
+  "lbl_close": "关闭",
+  "dialog_title_language": "设置语言",
+  "tooltip_language": "改变语言",
+  "title_change_language": "您可以更改整个网站的语言",
+  "validate": {
+    "email_format": "电子邮件必须是有效的电子邮件",
+    "message_require": "{{field}} 是必填字段",
+    "password_length": "密码太短"
+  },
+  "title_logout": "退出确认",
+  "text_logout": "您要退出吗？",
+  "btn_confirm": "确认",
+  "message_popup": {
+    "title_toltip_message": "信使",
+    "plh_type_message": "在这里输入你的消息..."
+  }
+}
