@@ -1,0 +1,14 @@
+{
+  "404": {
+    "title": "Không tìm thấy trang",
+    "lbl_back_page": "Quay lại",
+    "lbl_back_to_home": "Đi đến trang chủ"
+  },
+  "403": {
+    "title": "Bị cấm",
+    "lbl_back_page": "Quay lại",
+    "lbl_back_to_home": "Đi đến trang chủ",
+    "lbl_go_to_login": "Đi tới Đăng nhập",
+    "lbl_content_error": "Truy cập vào tài nguyên được yêu cầu bị cấm."
+  }
+}

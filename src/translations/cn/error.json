@@ -1,0 +1,14 @@
+{
+  "404": {
+    "title": "找不到网页",
+    "lbl_back_page": "回去",
+    "lbl_back_to_home": "去首页"
+  },
+  "403": {
+    "title": "禁止的",
+    "lbl_back_page": "回去",
+    "lbl_back_to_home": "去首页",
+    "lbl_go_to_login": "去登录",
+    "lbl_content_error": "禁止访问请求的资源"
+  }
+}

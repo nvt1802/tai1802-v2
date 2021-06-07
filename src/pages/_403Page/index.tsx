@@ -5,14 +5,16 @@ import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 import PageWrapper from "components/PageWapper"
 import Error from "components/Error"
+import When from "components/Condition/When"
 
-export default function _404Page(props: any) {
-  const { history } = props
+export default function _403Page(props?: any) {
+  console.log(props)
+  const { history, user } = props
   const classes = useStyles()
   const { t } = useTranslation("error")
 
   useEffect(() => {
-    document.title = t("error:404.title")
+    document.title = t("error:403.title")
   })
 
   const handleGoBack = (e: any) => {
@@ -24,20 +26,29 @@ export default function _404Page(props: any) {
     <PageWrapper>
       <Error className={clsx(classes.svg, classes.animatedItem)} />
       <div className={classes.messageBox}>
-        <h1 className={classes.h1}>404</h1>
-        <p>{t("error:404.title")}</p>
+        <h1 className={classes.h1}>403</h1>
+        <p>{t("error:403.lbl_content_error")}</p>
         <div className={classes.buttonsConActionLinkWrap}>
           <div style={{ display: "flex" }}>
-            <a
-              href="/"
-              onClick={handleGoBack}
-              className={classes.buttonsConActionLinkWrapA}
-            >
-              {t("error:404.lbl_back_page")}
-            </a>
-            <Link to="/" className={classes.buttonsConActionLinkWrapA}>
-              {t("error:404.lbl_back_to_home")}
-            </Link>
+            <When condition={user === null}>
+              <Link to="/login" className={classes.buttonsConActionLinkWrapA}>
+                {t("error:403.lbl_go_to_login")}
+              </Link>
+            </When>
+            <When condition={user !== null}>
+              <a
+                href="/"
+                onClick={handleGoBack}
+                className={classes.buttonsConActionLinkWrapA}
+              >
+                {t("error:403.lbl_back_page")}
+              </a>
+            </When>
+            <When condition={user !== null}>
+              <Link to="/" className={classes.buttonsConActionLinkWrapA}>
+                {t("error:403.lbl_back_to_home")}
+              </Link>
+            </When>
           </div>
         </div>
       </div>

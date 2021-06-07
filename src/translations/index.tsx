@@ -47,11 +47,11 @@ import videos_jp from "translations/jp/videos.json"
 import videos_kr from "translations/kr/videos.json"
 import videos_vn from "translations/vn/videos.json"
 
-import notFount404_cn from "translations/cn/404.json"
-import notFount404_en from "translations/en/404.json"
-import notFount404_jp from "translations/jp/404.json"
-import notFount404_kr from "translations/kr/404.json"
-import notFount404_vn from "translations/vn/404.json"
+import error_cn from "translations/cn/error.json"
+import error_en from "translations/en/error.json"
+import error_jp from "translations/jp/error.json"
+import error_kr from "translations/kr/error.json"
+import error_vn from "translations/vn/error.json"
 
 import about_cn from "translations/cn/about.json"
 import about_en from "translations/en/about.json"
@@ -72,7 +72,7 @@ i18next.init({
       home: home_cn,
       settings: settings_cn,
       videos: videos_cn,
-      404: notFount404_cn,
+      error: error_cn,
       about: about_cn,
     },
     en: {
@@ -84,7 +84,7 @@ i18next.init({
       home: home_en,
       settings: settings_en,
       videos: videos_en,
-      404: notFount404_en,
+      error: error_en,
       about: about_en,
     },
     jp: {
@@ -96,7 +96,7 @@ i18next.init({
       home: home_jp,
       settings: settings_jp,
       videos: videos_jp,
-      404: notFount404_jp,
+      error: error_jp,
       about: about_jp,
     },
     kr: {
@@ -108,7 +108,7 @@ i18next.init({
       home: home_kr,
       settings: settings_kr,
       videos: videos_kr,
-      404: notFount404_kr,
+      error: error_kr,
       about: about_kr,
     },
     vn: {
@@ -120,7 +120,7 @@ i18next.init({
       home: home_vn,
       settings: settings_vn,
       videos: videos_vn,
-      404: notFount404_vn,
+      error: error_vn,
       about: about_vn,
     },
   },

@@ -1,6 +1,6 @@
 import React from "react"
 
-function _404({ className }: any) {
+function Error({ className }: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -44,4 +44,4 @@ function _404({ className }: any) {
   )
 }
 
-export default _404
+export default Error

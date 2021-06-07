@@ -10,14 +10,15 @@ import VideosPage from "pages/VideosPage"
 import AboutPage from "pages/AboutPage"
 import NotFound404Page from "pages/_404Page"
 
-import AuthRoute from "server/AuthRoute"
+import AuthLoginRoute from "server/Authenticate/AuthLoginRoute"
+import AuthRoute from "server/Authenticate/AuthRoute"
 
 const routes = [
   {
     path: "/",
     exact: true,
     component: (props: any) => (
-      <AuthRoute {...props} component={() => <HomePage {...props} />} />
+      <AuthLoginRoute {...props} component={() => <HomePage {...props} />} />
     ),
   },
   {

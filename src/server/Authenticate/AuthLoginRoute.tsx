@@ -1,7 +1,7 @@
 import React from "react"
 import { Route, Redirect } from "react-router-dom"
 
-function AuthRoute(props: any) {
+function AuthLoginRoute(props: any) {
   const { user } = props
   if (user) {
     localStorage.setItem("photoURL", user?.photoURL)
@@ -11,4 +11,4 @@ function AuthRoute(props: any) {
   }
 }
 
-export default AuthRoute
+export default AuthLoginRoute

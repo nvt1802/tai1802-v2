@@ -15,7 +15,7 @@ import {
 import { LinearProgress } from "@material-ui/core"
 
 const AboutPage = () => {
-  const { t } = useTranslation("404")
+  const { t } = useTranslation("error")
 
   useEffect(() => {
     document.title = t("about:title")

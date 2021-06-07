@@ -1,0 +1,14 @@
+{
+  "404": {
+    "title": "Page Not Found",
+    "lbl_back_page": "Go Back",
+    "lbl_back_to_home": "Go to Home Page"
+  },
+  "403": {
+    "title": "Forbidden",
+    "lbl_back_page": "Go Back",
+    "lbl_back_to_home": "Go to Home Page",
+    "lbl_go_to_login": "Go to Login",
+    "lbl_content_error": "Access to the requested resource is prohibited."
+  }
+}
