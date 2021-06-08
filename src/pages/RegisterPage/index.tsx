@@ -15,7 +15,7 @@ import {
   Snackbar,
 } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles"
-import Logo from "components/Logo"
+import BackGroundLogin from "components/BackGroundLogin"
 import {
   Visibility,
   VisibilityOff,
@@ -119,7 +119,7 @@ const RegisterPage = (props: any) => {
             position: "relative",
           }}
         >
-          <Logo />
+          <BackGroundLogin />
         </div>
         <div
           className={checkSize() ? classes.colSize12 : classes.colSize6}

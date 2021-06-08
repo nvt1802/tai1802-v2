@@ -1,8 +1,8 @@
-import React from "react"
+import React, { FC } from "react"
 import { createStyles, makeStyles } from "@material-ui/core"
 import clsx from "clsx"
 
-export default function Logo() {
+const BackGroundLogin: FC<any> = () => {
   const classes = useStyles()
 
   return (
@@ -119,3 +119,5 @@ const useStyles = makeStyles(() =>
     },
   })
 )
+
+export default BackGroundLogin

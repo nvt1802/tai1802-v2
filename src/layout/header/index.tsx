@@ -17,6 +17,7 @@ import When from "components/Condition/When"
 import { Link } from "react-router-dom"
 import DialogConfirm from "components/DialogConfirm"
 import CustomizedMenus from "layout/menu"
+import FlowerA from "components/Logo/FlowerA"
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -97,11 +98,28 @@ export default function Header(props: any) {
         paddingRight: "4em",
       }}
     >
-      <Typography variant="h6" className={classes.title}>
-        <Link to="/" id="home-page" style={{ textDecoration: "none" }}>
-          {t("header:title_page")}
-        </Link>
-      </Typography>
+      <div className={classes.title}>
+        <div style={{ display: "flex" }}>
+          <FlowerA width="30px" height="30px" />
+          <div
+            style={{
+              marginTop: "auto",
+              marginBottom: "auto",
+              marginLeft: "0.5em",
+            }}
+          >
+            <Typography variant="h6">
+              <Link
+                to="/"
+                id="home-page"
+                style={{ textDecoration: "none", margin: "auto" }}
+              >
+                {t("header:title_page")}
+              </Link>
+            </Typography>
+          </div>
+        </div>
+      </div>
 
       <When condition={typeof user !== "undefined" && user !== null}>
         <div>
