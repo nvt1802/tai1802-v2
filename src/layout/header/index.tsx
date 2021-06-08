@@ -9,19 +9,14 @@ import {
   Grid,
   Avatar,
 } from "@material-ui/core"
-import {
-  Menu as MenuIcon,
-  ExitToApp as LogoutIcon,
-  Settings as SettingsIcon,
-  VideoLibrary as VideoLibraryIcon,
-  AccountBox as AccountBoxIcon,
-} from "@material-ui/icons"
+import { Menu as MenuIcon, ExitToApp as LogoutIcon } from "@material-ui/icons"
 import useMediaQuery from "@material-ui/core/useMediaQuery"
 import { useTranslation } from "react-i18next"
 import Sidebar from "layout/sidebar"
 import When from "components/Condition/When"
 import { Link } from "react-router-dom"
 import DialogConfirm from "components/DialogConfirm"
+import CustomizedMenus from "layout/menu"
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -44,6 +39,7 @@ export default function Header(props: any) {
   useEffect(() => {
     const headerElement = document.getElementsByTagName("header")[0]
     const homePageElement = document.getElementById("home-page")
+    headerElement.style.zIndex = "1500"
     headerElement.style.backgroundColor = "transparent"
     headerElement.style.boxShadow = "unset"
     headerElement.style.color = "white"
@@ -56,11 +52,8 @@ export default function Header(props: any) {
   const headerColorChange = () => {
     const headerElement = document.getElementsByTagName("header")[0]
     const homePageElement = document.getElementById("home-page")
-    const settingsPageElement = document.getElementById("settings-page")
-    const videosPageElement = document.getElementById("videos-page")
-    const aboutPageElement = document.getElementById("about-page")
     const windowsScrollTop = window.pageYOffset
-    if (windowsScrollTop > 150) {
+    if (windowsScrollTop > 120) {
       headerElement.style.backgroundColor = "white"
       headerElement.style.boxShadow =
         "0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)"
@@ -69,30 +62,12 @@ export default function Header(props: any) {
       if (homePageElement !== null) {
         homePageElement.style.color = "black"
       }
-      if (typeof settingsPageElement !== "undefined" && settingsPageElement) {
-        settingsPageElement.style.color = "black"
-      }
-      if (typeof videosPageElement !== "undefined" && videosPageElement) {
-        videosPageElement.style.color = "black"
-      }
-      if (typeof aboutPageElement !== "undefined" && aboutPageElement) {
-        aboutPageElement.style.color = "black"
-      }
     } else {
       headerElement.style.backgroundColor = "transparent"
       headerElement.style.boxShadow = "unset"
       headerElement.style.color = "white"
       if (homePageElement !== null) {
         homePageElement.style.color = "white"
-      }
-      if (typeof settingsPageElement !== "undefined" && settingsPageElement) {
-        settingsPageElement.style.color = "white"
-      }
-      if (typeof videosPageElement !== "undefined" && videosPageElement) {
-        videosPageElement.style.color = "white"
-      }
-      if (typeof aboutPageElement !== "undefined" && aboutPageElement) {
-        aboutPageElement.style.color = "white"
       }
     }
   }
@@ -142,48 +117,7 @@ export default function Header(props: any) {
               </Grid>
 
               <Grid style={{ margin: "auto" }}>
-                <MenuItem>
-                  <VideoLibraryIcon fontSize="small" />
-                  <Link
-                    to="/videos"
-                    id="videos-page"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    <span style={{ marginLeft: "0.5em" }}>
-                      {t("header:btn_videos")}
-                    </span>
-                  </Link>
-                </MenuItem>
-              </Grid>
-
-              <Grid style={{ margin: "auto" }}>
-                <MenuItem>
-                  <SettingsIcon fontSize="small" />
-                  <Link
-                    to="/settings"
-                    id="settings-page"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    <span style={{ marginLeft: "0.5em" }}>
-                      {t("header:btn_setting")}
-                    </span>
-                  </Link>
-                </MenuItem>
-              </Grid>
-
-              <Grid style={{ margin: "auto" }}>
-                <MenuItem>
-                  <AccountBoxIcon fontSize="small" />
-                  <Link
-                    to="/about"
-                    id="about-page"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    <span style={{ marginLeft: "0.5em" }}>
-                      {t("header:btn_about")}
-                    </span>
-                  </Link>
-                </MenuItem>
+                <CustomizedMenus t={t} />
               </Grid>
 
               <Grid style={{ margin: "auto" }}>

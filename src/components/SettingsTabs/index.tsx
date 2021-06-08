@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react"
-import { AppBar, Tab, Tabs, Typography, Box } from "@material-ui/core"
+import { AppBar, Tab, Tabs, Box } from "@material-ui/core"
 import { LanguageOutlined as LanguageIcon } from "@material-ui/icons"
 import { useTranslation } from "react-i18next"
 import SetingLanguageForm from "components/Language/Form"
@@ -15,11 +15,7 @@ function TabPanel(props: any) {
       aria-labelledby={`scrollable-force-tab-${index}`}
       {...other}
     >
-      {value === index && (
-        <Box p={3}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
+      {value === index && <Box p={3}>{children}</Box>}
     </div>
   )
 }

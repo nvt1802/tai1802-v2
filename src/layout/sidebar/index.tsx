@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import React, { FC, Fragment } from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import {
   SwipeableDrawer,
@@ -13,6 +13,7 @@ import {
   ExitToApp as LogoutIcon,
   Settings as SettingsIcon,
   VideoLibrary as VideoLibraryIcon,
+  AccountBox as AccountBoxIcon,
 } from "@material-ui/icons"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
@@ -93,7 +94,7 @@ const Sidebar: FC<SidebarProps> = ({
       <List onClick={handlePushPageAbout}>
         <ListItem button>
           <ListItemIcon>
-            <SettingsIcon fontSize="small" />
+            <AccountBoxIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText primary={t("header:btn_about")} />
         </ListItem>
@@ -111,19 +112,20 @@ const Sidebar: FC<SidebarProps> = ({
   )
 
   return (
-    <div>
+    <Fragment>
       <SwipeableDrawer
         anchor={"right"}
         open={isOpen}
         onClose={toggleDrawer()}
         onOpen={toggleDrawer()}
+        style={{ zIndex: 1600 }}
       >
         {list()}
       </SwipeableDrawer>
       <Link to="/settings" id="pushSettings" style={{ display: "none" }} />
       <Link to="/videos" id="pushVideos" style={{ display: "none" }} />
       <Link to="/about" id="pushAbout" style={{ display: "none" }} />
-    </div>
+    </Fragment>
   )
 }
 
