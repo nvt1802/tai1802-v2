@@ -2,14 +2,7 @@ import React, { useEffect, useState } from "react"
 import { connect } from "react-redux"
 import PageWrapper from "components/PageWapper"
 import { useTranslation } from "react-i18next"
-import {
-  makeStyles,
-  Paper,
-  AppBar,
-  Tab,
-  Tabs,
-  Box,
-} from "@material-ui/core"
+import { makeStyles, Paper, AppBar, Tab, Tabs, Box } from "@material-ui/core"
 import {
   YouTube as YouTubeIcon,
   VideoLibrary as VideoIcon,

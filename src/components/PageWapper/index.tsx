@@ -1,7 +1,11 @@
-import React from "react"
+import React, { FC } from "react"
 import { makeStyles } from "@material-ui/core"
 
-export default function PageWapper({ children }: any) {
+interface PageWapperProps {
+  children?: any
+}
+
+const PageWapper: FC<PageWapperProps> = ({ children }) => {
   const classes = useStyles()
 
   return <div className={classes.page}>{children}</div>
@@ -13,3 +17,5 @@ const useStyles = makeStyles(() => ({
     paddingTop: "5em",
   },
 }))
+
+export default PageWapper
