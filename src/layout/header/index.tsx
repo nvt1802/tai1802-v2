@@ -17,7 +17,7 @@ import When from "components/Condition/When"
 import { Link } from "react-router-dom"
 import DialogConfirm from "components/DialogConfirm"
 import CustomizedMenus from "layout/menu"
-import FlowerA from "components/Logo/FlowerA"
+import Logo from "components/Logo"
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
@@ -100,7 +100,7 @@ export default function Header(props: any) {
     >
       <div className={classes.title}>
         <div style={{ display: "flex" }}>
-          <FlowerA width="30px" height="30px" />
+          <Logo />
           <div
             style={{
               marginTop: "auto",

@@ -1,6 +1,6 @@
-import message from "./message"
+import settings from "./settings"
 import { combineReducers } from "redux"
 
-const rootReducers = combineReducers({ message })
+const rootReducers = combineReducers({ settings })
 
 export default rootReducers
