@@ -6,6 +6,7 @@ import {
   Settings as SettingsIcon,
   VideoLibrary as VideoLibraryIcon,
   AccountBox as AccountBoxIcon,
+  GamesOutlined as GamesIcon,
 } from "@material-ui/icons"
 import { Link } from "react-router-dom"
 
@@ -108,6 +109,22 @@ const CustomizedMenus: FC<any> = ({ t }: any) => {
             >
               <span style={{ marginLeft: "0.5em" }}>
                 {t("header:btn_about")}
+              </span>
+            </Link>
+          </ListItemIcon>
+        </StyledMenuItem>
+
+        <StyledMenuItem>
+          <ListItemIcon>
+            <GamesIcon fontSize="small" />
+            <Link
+              to="/games"
+              id="games-page"
+              style={{ textDecoration: "none", color: "black" }}
+              onClick={handleClose}
+            >
+              <span style={{ marginLeft: "0.5em" }}>
+                {t("header:btn_sodoku")}
               </span>
             </Link>
           </ListItemIcon>

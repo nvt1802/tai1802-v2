@@ -14,6 +14,7 @@ import {
   Settings as SettingsIcon,
   VideoLibrary as VideoLibraryIcon,
   AccountBox as AccountBoxIcon,
+  GamesOutlined as GamesIcon,
 } from "@material-ui/icons"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
@@ -53,6 +54,10 @@ const Sidebar: FC<SidebarProps> = ({
 
   const handlePushPageAbout = () => {
     document.getElementById("pushAbout")?.click()
+  }
+
+  const handlePushPageGames = () => {
+    document.getElementById("pushGames")?.click()
   }
 
   const list = (props?: any) => (
@@ -100,6 +105,15 @@ const Sidebar: FC<SidebarProps> = ({
         </ListItem>
       </List>
 
+      <List onClick={handlePushPageGames}>
+        <ListItem button>
+          <ListItemIcon>
+            <GamesIcon fontSize="small" />
+          </ListItemIcon>
+          <ListItemText primary={t("header:btn_sodoku")} />
+        </ListItem>
+      </List>
+
       <List onClick={handleLogout}>
         <ListItem button>
           <ListItemIcon>
@@ -125,6 +139,7 @@ const Sidebar: FC<SidebarProps> = ({
       <Link to="/settings" id="pushSettings" style={{ display: "none" }} />
       <Link to="/videos" id="pushVideos" style={{ display: "none" }} />
       <Link to="/about" id="pushAbout" style={{ display: "none" }} />
+      <Link to="/games" id="pushGames" style={{ display: "none" }} />
     </Fragment>
   )
 }
