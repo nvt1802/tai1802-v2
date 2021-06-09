@@ -1,4 +1,8 @@
 {
   "title": "设置页面",
-  "title_setting_language": "设置语言"
+  "title_setting_language": "设置语言",
+  "title_setting_logo": "设置标志",
+  "title_logo": "商标",
+  "title_duration": "期间",
+  "title_color": "颜色"
 }

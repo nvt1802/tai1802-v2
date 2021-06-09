@@ -49,7 +49,7 @@ export default function SettingsTabs() {
             label={t("settings:title_setting_language")}
             icon={<LanguageIcon />}
           />
-          <Tab label={t("settings:logo")} icon={<LogoIcon />} />
+          <Tab label={t("settings:title_setting_logo")} icon={<LogoIcon />} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>

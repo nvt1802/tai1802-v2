@@ -72,6 +72,7 @@ const CustomizedMenus: FC<any> = ({ t }: any) => {
               to="/videos"
               id="videos-page"
               style={{ textDecoration: "none", color: "black" }}
+              onClick={handleClose}
             >
               <span style={{ marginLeft: "0.5em" }}>
                 {t("header:btn_videos")}
@@ -87,6 +88,7 @@ const CustomizedMenus: FC<any> = ({ t }: any) => {
               to="/settings"
               id="settings-page"
               style={{ textDecoration: "none", color: "black" }}
+              onClick={handleClose}
             >
               <span style={{ marginLeft: "0.5em" }}>
                 {t("header:btn_setting")}
@@ -102,6 +104,7 @@ const CustomizedMenus: FC<any> = ({ t }: any) => {
               to="/about"
               id="about-page"
               style={{ textDecoration: "none", color: "black" }}
+              onClick={handleClose}
             >
               <span style={{ marginLeft: "0.5em" }}>
                 {t("header:btn_about")}

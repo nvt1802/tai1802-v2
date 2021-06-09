@@ -1,4 +1,8 @@
 {
   "title": "Settings",
-  "title_setting_language": "Language setting"
+  "title_setting_language": "Language setting",
+  "title_setting_logo": "Setting Logo",
+  "title_logo": "Logo",
+  "title_duration": "Duration",
+  "title_color": "Color"
 }

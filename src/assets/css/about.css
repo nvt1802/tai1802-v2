@@ -40,7 +40,6 @@ h3 {
   box-shadow: 0 0 20px -3px #bbb;
   position: relative;
   display: flex;
-  margin: 0 2em 0 2em;
 }
 .resume::before {
   content: "";
@@ -367,7 +366,7 @@ h3 {
   transform: scale(1.2);
 }
 .resume .func .skills-soft ul li svg {
-  width:70%;
+  width: 70%;
   fill: transparent;
   transform: rotate(-90deg);
 }

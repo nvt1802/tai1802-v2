@@ -12,10 +12,11 @@ import {
   Instagram as InstagramIcon,
   Twitter as TwitterIcon,
 } from "@material-ui/icons"
-import { LinearProgress } from "@material-ui/core"
+import { LinearProgress, useMediaQuery } from "@material-ui/core"
 
 const AboutPage = () => {
   const { t } = useTranslation("error")
+  const matches = useMediaQuery("(min-width:500px)")
 
   useEffect(() => {
     document.title = t("about:title")
@@ -23,7 +24,12 @@ const AboutPage = () => {
 
   return (
     <PageWrapper>
-      <div className="resume">
+      <div
+        className="resume"
+        style={{
+          margin: `${matches === true ? "0 2em 0 2em" : "0 0 0 0"}`,
+        }}
+      >
         <div className="base">
           <div className="profile">
             <div className="photo">

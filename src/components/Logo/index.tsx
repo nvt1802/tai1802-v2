@@ -16,15 +16,106 @@ const Logo: FC<any> = () => {
   const dispatch = useDispatch()
   const state = useSelector((state) => state)
   const [loading, setLoading] = useState<boolean>(true)
+  const duration = Number(_get(state, "settings.duration", "5"))
+  const color = _get(state, "settings.color", "black")
+
   const arrLogo = [
-    { label: <FlowerA key="A" width="30px" height="30px" />, value: "1" },
-    { label: <FlowerB key="B" width="30px" height="30px" />, value: "2" },
-    { label: <FlowerC key="C" width="30px" height="30px" />, value: "3" },
-    { label: <FlowerD key="D" width="30px" height="30px" />, value: "4" },
-    { label: <FlowerE key="E" width="30px" height="30px" />, value: "5" },
-    { label: <FlowerF key="F" width="30px" height="30px" />, value: "6" },
-    { label: <FlowerG key="G" width="30px" height="30px" />, value: "7" },
-    { label: <FlowerH key="H" width="30px" height="30px" />, value: "8" },
+    {
+      label: (
+        <FlowerA
+          key="A"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "1",
+    },
+    {
+      label: (
+        <FlowerB
+          key="B"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "2",
+    },
+    {
+      label: (
+        <FlowerC
+          key="C"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "3",
+    },
+    {
+      label: (
+        <FlowerD
+          key="D"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "4",
+    },
+    {
+      label: (
+        <FlowerE
+          key="E"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "5",
+    },
+    {
+      label: (
+        <FlowerF
+          key="F"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "6",
+    },
+    {
+      label: (
+        <FlowerG
+          key="G"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "7",
+    },
+    {
+      label: (
+        <FlowerH
+          key="H"
+          width="30px"
+          height="30px"
+          duration={duration}
+          color={color}
+        />
+      ),
+      value: "8",
+    },
   ]
 
   useEffect(() => {
@@ -45,7 +136,7 @@ const Logo: FC<any> = () => {
   }, [loading, dispatch])
   return (
     <Fragment>
-      {arrLogo.map((item, index) => {
+      {arrLogo.map((item: any, index: number) => {
         if (item?.value === _get(state, "settings.logo", "1")) {
           return item?.label
         } else {

@@ -1,4 +1,8 @@
 {
   "title": "設定ページ",
-  "title_setting_language": "言語設定"
+  "title_setting_language": "言語設定",
+  "title_setting_logo": "ロゴの設定",
+  "title_logo": "ロゴ",
+  "title_duration": "デュレーション",
+  "title_color": "色"
 }
