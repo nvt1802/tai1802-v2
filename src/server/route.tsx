@@ -9,6 +9,7 @@ import SettingsPage from "pages/SettingsPage"
 import VideosPage from "pages/VideosPage"
 import AboutPage from "pages/AboutPage"
 import NotFound404Page from "pages/_404Page"
+import TestPage from "pages/TestPage"
 
 import AuthLoginRoute from "server/Authenticate/AuthLoginRoute"
 import AuthRoute from "server/Authenticate/AuthRoute"
@@ -49,6 +50,11 @@ const routes = [
     path: "/about",
     exact: true,
     component: (props: any) => <AboutPage {...props} />,
+  },
+  {
+    path: "/test",
+    exact: true,
+    component: (props: any) => <TestPage {...props} />,
   },
   {
     path: "",
